@@ -1,0 +1,367 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin-left: -200px;
+}
+
+.recomendaciones-container {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    margin-left: 35px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+
+.recomendaciones-container .recomendacion-1 {
+    border-radius: 0 50px;
+    border: 1px solid var(--color-texto);
+    padding: 10px;
+    width: 300px;
+    height: 320px;
+    margin-left: 100px;
+    background-image: radial-gradient(circle at 50% 50%, #00c2b2 0, #00c2be 3.33%, #00c1c9 6.67%, #00c1d4 10%, #00c0de 13.33%, #00bee7 16.67%, #00bdef 20%, #00bbf6 23.33%, #00b8fb 26.67%, #2cb5ff 30%, #50b2ff 33.33%, #6baeff 36.67%, #82aaff 40%, #96a6fd 43.33%, #a9a2f8 46.67%, #b99df2 50%, #c899eb 53.33%, #d594e2 56.67%, #e090d8 60%, #e98dce 63.33%, #f18ac2 66.67%, #f788b7 70%, #fb87ab 73.33%, #fd879f 76.67%, #fe8894 80%, #fd8a89 83.33%, #fa8d7e 86.67%, #f69074 90%, #f1946b 93.33%, #ea9864 96.67%, #e39c5d 100%);
+}
+
+.recomendaciones-container .img-producto-1 img {
+    width: 150px;
+    height: 150px;
+    margin-left: 170px;
+    margin-top: -50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: var(--color-texto);
+    transition: all ease .55s;
+}
+
+.recomendaciones-container .recomendacion-1 h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.recomendaciones-container .recomendacion-1 h2 {
+    font-size: 20px;
+}
+
+.recomendaciones-container .recomendacion-1 hr {
+    width: 260px;
+    margin-left: 5px;
+}
+
+
+.recomendaciones-container .recomendacion-1 p {
+    margin-top: 5px;
+    font-size: 13px;
+    letter-spacing: none;
+}
+
+.recomendaciones-container .recomendacion-1 ul {
+    text-align: start;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+.recomendaciones-container .recomendacion-2 {
+    border-radius: 50px 0;
+    border: 1px solid var(--color-texto);
+    padding: 10px;
+    width: 300px;
+    height: 320px;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.recomendaciones-container .img-producto-2 img {
+    width: 150px;
+    height: 150px;
+    margin-left: 220px;
+    margin-top: -50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: var(--color-texto);
+    transition: all ease .55s;
+}
+
+.recomendaciones-container .img-producto-2 img:hover {
+    transform: translateY(-5px) scale(1.1);
+    background: #bcbcbc;
+    color: #757474;
+}
+
+.recomendaciones-container .img-producto-1 img:hover {
+    transform: translateY(-5px) scale(1.1);
+    background: #bcbcbc;
+    color: #757474;
+}
+
+.recomendaciones-container .recomendacion-2 h1 {
+    text-align: start;
+    margin-top: -100px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.recomendaciones-container .recomendacion-2 hr {
+    width: 180px;
+    height: 1px;
+    margin-left: 20px;
+}
+
+.recomendaciones-container .recomendacion-2 p {
+    margin-top: 5px;
+    font-size: 13px;
+    letter-spacing: none;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+
+.recomendaciones-container .recomendacion-2 ul {
+    text-align: start;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.recomendaciones-container .recomendacion-2 h2 {
+    font-size: 20px;
+}
+
+section .recomendaciones-info {
+    margin-top: 100px;
+    display: block;
+    margin-left: 250px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: -80px;
+}
+
+.recomendaciones-info p {
+    margin: 2px 0 20px;
+    color: var(--color-primario);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.recomendaciones-info h1 {
+    font-size: 25px;
+}
+
+.recomendaciones-info h4 {
+    margin: 2px 0 20px;
+    color: var(--color-primario);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 780px) {
+
+    section {
+        margin-right: 300px;
+    }
+
+    /* .recomendaciones-container:nth-child(2) {
+        display: block;
+    } */
+
+    .recomendaciones-container {
+        width: 100%;
+        height: 70vh;
+        display: block;
+        /* gap: 20px; */
+        margin-left: 200px;
+        margin-bottom: 800px;
+    }
+
+    .recomendaciones-container .recomendacion-1 {
+        /* display: none; */
+        width: 300px;
+        height: 350px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .recomendaciones-container .recomendacion-2 {
+        /* display: none; */
+        width: 300px;
+        height: 350px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+
+    .footer-page {
+        margin-top: 360px;
+    }
+
+    .recomendaciones-container .img-producto-1 img {
+        width: 100px;
+        height: 100px;
+        margin-top: -10px;
+    }
+
+    .recomendaciones-container .img-producto-1 img:nth-child(1) {
+        margin-top: -30px;
+    }
+
+    .recomendaciones-info {
+        width: 100%;
+    }
+
+    .recomendaciones-info h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .recomendaciones-info h4 {
+        font-size: 30px;
+    }
+
+    .recomendaciones-info p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .recomendaciones-container .recomendacion-1 {
+        /* display: none; */
+        width: 450px;
+        height: 450px;
+        margin-left: 280px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .recomendaciones-info .recomendacion-1 h1 {
+        font-size: 30px;
+    }
+
+    .recomendaciones-container .recomendacion-1 hr {
+        margin-left: 75px;
+    }
+
+    .recomendaciones-container .recomendacion-1 p {
+        font-size: 18px;
+    }
+
+    .recomendaciones-container .recomendacion-1 h2 {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    .recomendaciones-container .recomendacion-1 ul {
+        font-size: 20px;
+    }
+
+    .recomendaciones-container .recomendacion-2 h1 {
+        font-size: 40px;
+        margin-right: 100px;
+    }
+
+    .recomendaciones-container .recomendacion-2 hr {
+        margin-right: 30px;
+    }
+
+    .recomendaciones-container .recomendacion-2 p {
+        font-size: 15px;
+    }
+
+    .recomendaciones-container .recomendacion-2 h2 {
+        font-size: 30px;
+    }
+
+    .recomendaciones-container .recomendacion-2 ul {
+        font-size: 20px;
+    }
+
+    .recomendaciones-container .recomendacion-2 {
+        /* display: none; */
+        width: 450px;
+        height: 480px;
+        margin-left: 280px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .recomendaciones-container {
+        width: 50%;
+        height: 70vh;
+        display: block;
+        /* gap: 20px; */
+        margin-left: -40px;
+        margin-bottom: 1300px;
+    }
+
+
+    .recomendaciones-container .img-producto-1 img {
+        width: 150px;
+        height: 150px;
+        margin-top: -100px;
+        margin-right: -80px;
+    }
+
+    .recomendaciones-container .img-producto-2 img {
+        margin-right: -120px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .recomendaciones-container .recomendacion-1 {
+        /* display: none; */
+        width: 300px;
+        height: 350px;
+        margin-left: 250px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recomendaciones-container .recomendacion-2 {
+        /* display: none; */
+        width: 300px;
+        height: 350px;
+        margin-left: 250px;
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .recomendaciones-container {
+        width: 50%;
+        height: 70vh;
+        display: block;
+        /* gap: 20px; */
+        margin-left: -40px;
+        margin-bottom: 800px;
+    }
+
+    section {
+        width: 300px;
+        /* margin-left: 100px; */
+    }
+}

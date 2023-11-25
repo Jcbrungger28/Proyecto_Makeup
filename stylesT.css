@@ -1,0 +1,207 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container-principal-video {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+}
+
+.container-principal-video .container-tienda {
+    margin-top: 100px;
+    display: flex;
+}
+
+.container-principal-video .container-tienda p {
+    margin: 2px 0 20px;
+    color: var(--color-primario);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.video-tienda1 h2 {
+    text-align: center;
+    color: var(--color-texto);
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    transition: all ease .55s;
+}
+
+.video-tienda1 span {
+    color: var(--color-primario);
+
+}
+
+.video-tienda1 h2:hover {
+    transform: translateY(-5px) scale(1.1);
+    text-decoration: overline;
+}
+
+.info-video {
+    margin-top: 140px;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.container-principal-video .container-tienda .video-tienda1 video {
+    width: 250px;
+    height: 400px;
+    /* display: block; */
+    border-radius: 46px;
+    border: 1px solid var(--color-texto);
+    margin-left: 20px;
+    background-image: radial-gradient(circle at 50% 50%, #00c2b2 0, #00c2be 3.33%, #00c1c9 6.67%, #00c1d4 10%, #00c0de 13.33%, #00bee7 16.67%, #00bdef 20%, #00bbf6 23.33%, #00b8fb 26.67%, #2cb5ff 30%, #50b2ff 33.33%, #6baeff 36.67%, #82aaff 40%, #96a6fd 43.33%, #a9a2f8 46.67%, #b99df2 50%, #c899eb 53.33%, #d594e2 56.67%, #e090d8 60%, #e98dce 63.33%, #f18ac2 66.67%, #f788b7 70%, #fb87ab 73.33%, #fd879f 76.67%, #fe8894 80%, #fd8a89 83.33%, #fa8d7e 86.67%, #f69074 90%, #f1946b 93.33%, #ea9864 96.67%, #e39c5d 100%);
+}
+
+.info-video span {
+    color: var(--color-primario);
+}
+
+
+
+.info-video h1 {
+    font-size: 35px;
+    margin-top: -20px;
+}
+
+.info-video p {
+    margin: 2px 0 20px;
+    color: var(--color-primario);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 780px) {
+    .container-principal-video {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        margin-left: -20px;
+    }
+
+    .container-principal-video .container-tienda {
+        display: block;
+        margin-left: 60px;
+        padding: 20px;
+        margin-top: -10px;
+    }
+
+    .container-principal-video .container-tienda .video-tienda1 video {
+        width: 400px;
+        margin: 20px;
+        margin-top: 30px;
+    }
+
+    .video-tienda1 h2 {
+        background-color: #545454;
+        padding: 10px;
+        border-radius: 5px;
+        justify-content: center;
+        text-align: center;
+        width: 400px;
+        height: 45px;
+        margin-left: 20px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
+    }
+
+    .video-tienda1 .mabelline {
+        font-size: 14px
+    }
+
+    .video-tienda1 h2:hover {
+        text-decoration: none;
+    }
+
+    .info-video h1 {
+        margin-left: -40px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-page {
+        margin-top: 1450px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .container-principal-video {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        margin-left: -20px;
+    }
+
+    .container-principal-video .container-tienda {
+        display: block;
+        margin-left: 60px;
+        padding: 20px;
+        margin-top: -10px;
+    }
+
+    .container-principal-video .container-tienda .video-tienda1 video {
+        width: 200px;
+        margin: 20px;
+        margin-top: 30px;
+    }
+
+    .video-tienda1 h2 {
+        background-color: #545454;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 9px;
+        justify-content: center;
+        text-align: center;
+        width: 200px;
+        height: 45px;
+        margin-left: 20px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
+    }
+
+    .video-tienda1 .mabelline {
+        font-size: 8px;
+    }
+
+    .video-tienda1 h2:hover {
+        text-decoration: none;
+    }
+
+    .info-video h1 {
+        margin-left: -40px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-page {
+        margin-top: 1150px;
+        width: 100%;
+        display: flex;
+    }
+
+    .container-principal-video .container-tienda p {
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+        margin-left: -30px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .footer-page {
+        width: 100%;
+        margin-top: 1500px;
+    }
+}

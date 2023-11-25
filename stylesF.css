@@ -1,0 +1,307 @@
+.form-container {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    margin-top: 50px;
+    overflow: hidden;
+    margin-left: -40px;
+}
+
+
+.form-container .form-info-container {
+    flex-direction: column;
+    width: 450px;
+    height: 400px;
+    background-image: radial-gradient(circle at 50% 50%, #00c2b2 0, #00c2be 3.33%, #00c1c9 6.67%, #00c1d4 10%, #00c0de 13.33%, #00bee7 16.67%, #00bdef 20%, #00bbf6 23.33%, #00b8fb 26.67%, #2cb5ff 30%, #50b2ff 33.33%, #6baeff 36.67%, #82aaff 40%, #96a6fd 43.33%, #a9a2f8 46.67%, #b99df2 50%, #c899eb 53.33%, #d594e2 56.67%, #e090d8 60%, #e98dce 63.33%, #f18ac2 66.67%, #f788b7 70%, #fb87ab 73.33%, #fd879f 76.67%, #fe8894 80%, #fd8a89 83.33%, #fa8d7e 86.67%, #f69074 90%, #f1946b 93.33%, #ea9864 96.67%, #e39c5d 100%);
+    margin-left: 150px;
+    border: 1px solid var(--color-texto);
+    border-radius: 46px 0;
+}
+
+.form-container .form-info-container p {
+    padding: 30px;
+    width: 150px;
+    height: 100px;
+}
+
+.form-container .form-info-container label {
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+.form-container .form-info-container input {
+    display: flex;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.form-container .form-info-container input:hover {
+    border: 1px solid var(--color-texto);
+    border-radius: 30px;
+}
+
+
+.form-container .form-info-container textarea {
+    display: flex;
+    padding: 20px;
+    width: 390px;
+    height: auto;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--color-texto);
+    border-radius: 46px 0;
+    outline: none;
+    margin-top: 10px;
+}
+
+.form-container .form-buttom {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    margin-top: 400px;
+    margin-left: 35px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-container .form-buttom input {
+    padding: 10px 20px 10px 20px;
+    border-radius: 46px;
+}
+
+.form-container .form-info-container1 {
+    flex-direction: column;
+    width: 450px;
+    height: 400px;
+    background-image: radial-gradient(circle at 50% 50%, #00c2b2 0, #00c2be 3.33%, #00c1c9 6.67%, #00c1d4 10%, #00c0de 13.33%, #00bee7 16.67%, #00bdef 20%, #00bbf6 23.33%, #00b8fb 26.67%, #2cb5ff 30%, #50b2ff 33.33%, #6baeff 36.67%, #82aaff 40%, #96a6fd 43.33%, #a9a2f8 46.67%, #b99df2 50%, #c899eb 53.33%, #d594e2 56.67%, #e090d8 60%, #e98dce 63.33%, #f18ac2 66.67%, #f788b7 70%, #fb87ab 73.33%, #fd879f 76.67%, #fe8894 80%, #fd8a89 83.33%, #fa8d7e 86.67%, #f69074 90%, #f1946b 93.33%, #ea9864 96.67%, #e39c5d 100%);
+    margin-left: 10px;
+    border: 1px solid var(--color-texto);
+    border-radius: 0 46px;
+}
+
+.form-container .form-info-container1 label {
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+.form-container .form-info-container1 input {
+    display: flex;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.form-container .form-info-container1 p {
+    padding: 30px;
+    width: 150px;
+    height: 100px;
+}
+
+.form-container .form-info-container1 input:hover {
+    border: 1px solid var(--color-texto);
+    border-radius: 30px;
+}
+
+
+.form-info-container1:hover {
+    background: #bcbcbc;
+    color: #757474;
+}
+
+.form-info-container:hover {
+    background: #bcbcbc;
+    color: #757474;
+}
+
+
+.info-formulario h1 {
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-formulario hr {
+    width: 550px;
+    margin-left: 300px;
+}
+
+.info-formulario p {
+    margin: 2px 0 20px;
+    color: var(--color-primario);
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.info-formulario {
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+
+select {
+    margin-left: 5px;
+    margin-top: 70px;
+    display: flex;
+    padding: 30px;
+    width: 390px;
+    height: auto;
+    justify-content: center;
+    overflow: hidden;
+    background-color: var(--color-texto);
+    border-radius: 0 46px;
+    outline: none;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 780px) {
+    .info-formulario {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .info-formulario hr {
+        margin-left: 50px;
+        width: 480px;
+    }
+
+    .info-formulario p {
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+    }
+
+    .form-container {
+        display: block;
+        /* overflow: auto; */
+        margin-bottom: 10px;
+        height: 200vh;
+        width: 100%;
+    }
+
+    .form-container .form-info-container1 {
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-top: -400px;
+        margin-left: 90px;
+    }
+
+    .form-container .form-buttom a {
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+
+    .form-container .form-info-container {
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-left: 90px;
+    }
+
+    .footer-page {
+        width: 100%;
+        height: 100%;
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .info-formulario {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .info-formulario hr {
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .info-formulario p {
+        margin-bottom: 40px;
+        padding-bottom: 10px;
+    }
+
+    .form-container {
+        display: block;
+        /* overflow: auto; */
+        margin-bottom: 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .form-container .form-info-container1 {
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-top: -400px;
+        margin-left: 70px;
+        width: 300px;
+    }
+
+    .form-container .form-buttom a {
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+
+    .form-container .form-info-container {
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-left: 70px;
+        width: 300px;
+    }
+
+    .form-container .form-info-container input {
+        width: 250px;
+    }
+
+    .form-container .form-info-container1 input {
+        width: 250px;
+    }
+
+
+
+    .form-container .form-info-container textarea {
+        width: 250px;
+        margin-left: -5px;
+    }
+
+    .form-container .form-buttom a {
+        margin-top: 200px;
+        margin-left: 300px;
+    }
+
+    select {
+        width: 250px;
+        margin-left: -5px;
+    }
+
+    .footer-page {
+        width: 100%;
+        height: 40%;
+        margin-top: 30px;
+    }
+}
